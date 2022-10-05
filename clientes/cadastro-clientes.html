@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Cliente</title>
+</head>
+<body>
+    <div>
+        <h1>
+            Cadastrar Cliente
+        </h1>
+
+        <p>
+            Cadastre seu cliente aqui:
+        </p>
+
+        <form action="../sucesso.html" method="get">
+            <div>
+                <input
+                    type="text"
+                    name="name"
+                    placeholder="Nome"
+                    required
+                >
+            </div>
+
+            <div>
+                <input
+                    type="number"
+                    name="cpf"
+                    placeholder="CPF"
+                    required
+                >
+            </div>
+
+            <div>
+                <input
+                    type="date"
+                    name="date-birth"
+                    placeholder="Data de Nascimento"
+                    required
+                >
+            </div>
+
+            <div>
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    required
+                >
+            </div>
+
+            <input type="submit" value="Cadastrar">
+        </form>
+    </div>
+</body>
+</html>

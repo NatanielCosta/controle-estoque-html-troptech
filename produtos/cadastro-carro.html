@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Carro</title>
+</head>
+<body>
+    <div>
+        <h1>
+            Cadastrar Carro
+        </h1>
+
+        <p>
+            Cadastre seu carro aqui:
+        </p>
+
+        <form action="../sucesso.html" method="get">
+            <div>
+                <input
+                    required
+                    type="text"
+                    name="modelo"
+                    placeholder="Modelo"
+                >
+            </div>
+
+            <div>
+                <input
+                    required
+                    type="text"
+                    name="marca"
+                    placeholder="Marca"
+                >
+            </div>
+
+            <div>
+                <input
+                    required
+                    type="text"
+                    name="chassi"
+                    placeholder="Chassi"
+                >
+            </div>
+
+            <div>
+                <label for="maker">
+                    Fabricante
+                </label>
+                <select name="fabricante" required>
+                    <option value="1">Volks</option>
+                    <option value="2">Fiat</option>
+                    <option value="3">Chevrolet</option>
+                </select>
+            </div>
+
+            <input type="submit" value="Cadastrar">
+        </form>
+    </div>
+</body>
+</html>
